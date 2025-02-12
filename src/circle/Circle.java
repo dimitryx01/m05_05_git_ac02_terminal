@@ -32,5 +32,16 @@ public class Circle {
 		//TODO
 		return Math.PI*Math.pow(radius, 2);
 	}
+	
+	/**
+	 * Calculates the diameter of a circle
+	 * @param radius is a double numbers
+	 * @return a double: the diameter of a circle
+	 */
+	public double diameter(double radius) {
+		return 2 * radius;
+	}
+	
+
 
 }
