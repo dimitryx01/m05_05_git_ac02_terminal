@@ -32,5 +32,15 @@ public class Circle {
 		//TODO
 		return Math.PI*Math.pow(radius, 2);
 	}
+	
+	/**
+	 * Calculates the perimeter of a circle
+	 * @param radius 	a double number
+	 * @return 	the perimeter of a circle
+	 */
+	public double perimeter(double radius) {
+		return 2 * Math.PI * radius;
+	}
+
 
 }
