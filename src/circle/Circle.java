@@ -41,6 +41,16 @@ public class Circle {
 	public double perimeter(double radius) {
 		return 2 * Math.PI * radius;
 	}
+	/**
+	 * Calculates the diameter of a circle
+	 * @param radius is a double numbers
+	 * @return a double: the diameter of a circle
+	 */
+	public double diameter(double radius) {
+		return 2 * radius;
+	}
+	
 
+	
 
 }
