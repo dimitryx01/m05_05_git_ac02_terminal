@@ -23,7 +23,8 @@ public class CircleMain {
 		double radi = in.nextDouble();
 		in.close();
 		System.out.println("\nThe area is: " + circle.area(radi));
-		
+		System.out.println("\nThe perimeter is: " + circle.perimeter(radi));
+		System.out.println("\nThe Diameter is: " + circle.diameter(radi));
 		
 	}
 }
